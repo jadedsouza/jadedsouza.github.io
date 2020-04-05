@@ -8,13 +8,6 @@
     - thing: JavaScript
     - thing: Microsoft Computer Vision
 
-- name: Unconfident Language Detector
-  url:
-  code:
-  description: replace
-      used:
-    - thing: Java
-
 - name: DEBATABLE
   url: https://github.com/jadedsouza/DEBATABLE
   code: https://github.com/jadedsouza/DEBATABLE
