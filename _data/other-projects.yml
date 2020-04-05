@@ -2,7 +2,6 @@
   url: https://github.com/jadedsouza/ASL-to-Text-IOS
   code: https://github.com/jadedsouza/ASL-to-Text-IOS
   description: Project to convert ASL to text in real time use. Built during DubHacks 2018 at the University of Washington.
-
   used:
     - thing: Python
     - thing: C++
@@ -12,8 +11,8 @@
 - name: Unconfident Language Detector
   url:
   code:
-  description: Replaces words and phrases in emails that sounded less confident to help women gain more respect in their workplace and receive projects that take advantage of their entire skillset.
-    used:
+  description: replace
+      used:
     - thing: Java
 
 - name: DEBATABLE
