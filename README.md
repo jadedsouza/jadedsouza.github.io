@@ -1,10 +1,2 @@
-
-## Dependencies
-
-- [Gulp](https://gulpjs.com/)
-
-## Getting Started
-
-1.  `gem install jekyll sass bundler jekyll-minifier jekyll-sitemap`
-2.  `npm install`
-3.  `npm start`
+## Welcome to my personal website!
+Since this is my first time ever developing one for myself, I borrowed some code off <a href="https://github.com/bchiang7">Brittany Chiang</a>. 

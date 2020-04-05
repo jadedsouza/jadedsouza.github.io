@@ -9,6 +9,13 @@
     - thing: JavaScript
     - thing: Microsoft Computer Vision
 
+- name: Unconfident Language Detector
+  url:
+  code:
+  description: Replaces words and phrases in emails that sounded less confident to help women gain more respect in their workplace and receive projects that take advantage of their entire skillset.
+    used:
+    - thing: Java
+
 - name: DEBATABLE
   url: https://github.com/jadedsouza/DEBATABLE
   code: https://github.com/jadedsouza/DEBATABLE
@@ -17,12 +24,6 @@
     - thing: JavaScript
     - thing: Java
 
-- name: <patriarchy/>
-  url:
-  code:
-  description: Replaces unconfident language in female emails to allow them to leverage their skillset. Group leader at SWEHacks'18.
-  used:
-    - thing: Java
 
 - name: Archaeology in Film
   url: https://github.com/jadedsouza/ARCHY109
