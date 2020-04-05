@@ -1,0 +1,45 @@
+# Site settings
+name: Jade D'Souza
+title: Jade D'Souza | uhh
+description: desc
+url: https://jadedsouza.github.io/
+baseurl: ''
+email: jadedsouza@hotmail.com
+cover: https://jadedsouza.github.io/img/og.png
+logo: https://jadedsouza.github.io/img/emojis/technologist.png
+resume:
+social:
+  - title: email
+    url: mailto:jadedsouza@hotmail.com
+  - title: twitter
+    url:
+  - title: instagram
+    url: https://instagram.com/jadedsouza
+  - title: codepen
+    url:
+  - title: github
+    url: https://github.com/jadedsouza
+  - title: linkedin
+    url: https://www.linkedin.com/in/jadedsouza
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
