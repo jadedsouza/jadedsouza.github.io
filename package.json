@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/jadedsouza/jadedsouza.github.io"
   },
-  "homepage": "https://github.com/bchiang7/jadedsouza.github.io",
+  "homepage": "https://github.com/jadedsouza/jadedsouza.github.io",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve",
