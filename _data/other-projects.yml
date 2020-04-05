@@ -9,8 +9,8 @@
     - thing: Microsoft Computer Vision
 
 - name: Unconfident Language Detector
-  url: https://github.com/jadedsouza/DEBATABLE
-  code: https://github.com/jadedsouza/DEBATABLE
+  url: 
+  code: 
   description: Replacing unconfident language in emails to help women gain more respect in their workplace &amp; receive projects that leverage their entire skillset.
   used:
     - thing: Java
@@ -25,8 +25,8 @@
 
 
 - name: Archaeology in Film
-  url: https://github.com/jadedsouza/ARCHY109
-  code: https://github.com/jadedsouza/ARCHY109
+  url: https://jadedsouza.shinyapps.io/archy109/
+  code: https://jadedsouza.shinyapps.io/archy109/
   description: Small scale prototype to mimic a MadLib game for my final in an Archaeology in Film class.
   used:
     - thing: R
