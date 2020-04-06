@@ -3,11 +3,105 @@
     <span class="emoji wave-hand animated"></span>
   </h1>
 
+  <div class="i-am">
+      I am <span id="infoText"></span><span class="cursor">_</span>
+  </div>
+
+  <script type="text/javascript">
+      //https://stackoverflow.com/questions/5766263/run-settimeout-only-when-tab-is-active
+      $(window).blur(function(){
+          window.blurred = true;
+      }).focus(function(){
+          window.blurred = false;
+      });
+
+      const words = [
+          "motivated and driven",
+          "inquisitive",
+          "a numbers guy",
+          "creative",
+          "a mathematician",
+          "a code junkie",
+          "a black belt",
+          "an opportunist",
+          "hungry for more",
+          "an outdoors person",
+          "an engineer",
+          "a cyclist",
+          "an environmental advocate",
+          "a foodie",
+          "observant",
+          "a critical thinker"
+      ];
+
+      var infoText = $("#infoText");
+
+      //Randomize array
+      words.sort(function(a, b){
+          return 0.5 - Math.random();
+      });
+
+      //Blinking cursor
+      // var blink = false;
+      // setInterval(function(){
+      //     if(window.blurred) return;
+      //     $(".blink").css("opacity", (blink ? 1 : 0));
+      //     blink = !blink;
+      // }, 500);
+
+      var index = 0;
+      var currentText;
+
+      function deleteCurrent(done){
+          if(!currentText){
+              done();
+              return;
+          }
+
+          var id = setInterval(function(){
+              currentText = currentText.substr(0, currentText.length - 1);
+              infoText.text(currentText);
+
+              if(!currentText){
+                  infoText.text("");
+                  clearInterval(id);
+                  done();
+              }
+          }, 40);
+      }
+
+      function writeNew(done){
+          var end = 1;
+
+          var id = setInterval(function(){
+              var substr = currentText.substr(0, end++);
+
+              infoText.text(substr);
+
+              if(end > currentText.length){
+                  clearInterval(id);
+                  done();
+              }
+          }, 60);
+      }
+
+      function changeText(){
+          deleteCurrent(function(){
+              currentText = words[index++ % words.length];
+
+              writeNew(function(){
+                  setTimeout(changeText, 3500); //Change text 3.5 seconds after the new text has been written
+              });
+          });
+      }
+
+      changeText();
+  </script>
+
   <h2 class="intro__tagline">I'm
     <span class="name">Jade D'Souza.</span> I'm passionate about data, software development, and accessibility.
     <span class="emoji technologist"></span>
-    <span class="emoji rainbow"></span>
-      <img class="emoji" src="{{site.baseurl}}/img/emojis/rainbow.png" alt="emoji">
+      <span class="emoji" src="{{site.baseurl}}/img/emojis/rainbow.png" alt="emoji"></span>
   </h2>
 
   <h3 class="intro__contact">
