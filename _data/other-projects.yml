@@ -9,8 +9,8 @@
     - thing: Microsoft Computer Vision
 
 - name: Unconfident Language Detector
-  url: 
-  code: 
+  url: https://github.com/jadedsouza/UnconfidentLanguageDetector
+  code: https://github.com/jadedsouza/UnconfidentLanguageDetector
   description: Replacing unconfident language in emails to help women gain more respect in their workplace &amp; receive projects that leverage their entire skillset.
   used:
     - thing: Java
