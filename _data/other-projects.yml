@@ -1,7 +1,7 @@
 - name: Drink Choices
   url: https://group09skodawgs.web.app/#/
   code: https://github.com/jadedsouza/drink-choices
-  description: React Native Application to customize drink choices for you within the Seattle Area.
+  description: React Native Application to customize drink choices for you based on your mood and alcoholic preferences. Also helps with finding bars within the Seattle Area.
   used:
     - thing: React
     - thing: Firebase

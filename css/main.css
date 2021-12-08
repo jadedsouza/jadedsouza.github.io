@@ -231,6 +231,18 @@ strong {
 	letter-spacing: 2px
 }
 
+.section__hint{
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	width: 200px;
+	margin-right: 70px;
+	color: yellow;
+	text-transform: uppercase;
+	text-align: right;
+	font-weight: 600;
+	letter-spacing: 2px
+}
+
 @media screen and (max-width:1024px) {
 	.section__title {
 		margin-right: 50px
