@@ -235,8 +235,7 @@ strong {
 	-ms-flex-negative: 0;
 	flex-shrink: 0;
 	width: 200px;
-	margin-right: 70px;
-	color: yellow;
+	color: #ffff00;
 	text-transform: uppercase;
 	text-align: right;
 	font-weight: 600;
