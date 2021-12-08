@@ -1,12 +1,11 @@
-- name: American Sign Language to English translator
-  url: https://github.com/jadedsouza/ASL-to-Text-IOS
-  code: https://github.com/jadedsouza/ASL-to-Text-IOS
-  description: Project to convert ASL to text in real time use. Built during DubHacks 2018 at the University of Washington.
+- name: Drink Choices
+  url: https://group09skodawgs.web.app/#/
+  code: https://github.com/jadedsouza/drink-choices
+  description: React Native Application to customize drink choices for you within the Seattle Area.
   used:
-    - thing: Python
-    - thing: C++
+    - thing: React
+    - thing: Firebase
     - thing: JavaScript
-    - thing: Microsoft Computer Vision
 
 - name: Unconfident Language Detector
   url: https://github.com/jadedsouza/UnconfidentLanguageDetector

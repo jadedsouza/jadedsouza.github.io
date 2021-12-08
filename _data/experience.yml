@@ -1,7 +1,12 @@
 - company: Microsoft
   url: https://www.microsoft.com/en-us/
   time: June 2021 - September 2021
-  position: Incoming PM Intern
+  position: Product/Program Manager Intern, Identity Division
+
+- company: Tesla
+  url: https://www.tesla.com/
+  time: January 2021 - April 2021
+  position: Software Engineer Intern, Underwriting Services
   
 - company: T-Mobile
   url: https://www.t-mobile.com/isp
@@ -16,4 +21,4 @@
 - company: ESRI
   url: https://www.esri.com/en-us/home
   time: June - July 2017
-  position: Software Development Intern
+  position: Software Development Intern, ArcGIS Team

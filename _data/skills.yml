@@ -2,23 +2,21 @@ languages:
   - item: Java
   - item: C++
   - item: C#
+  - item: Javascript
   - item: HTML
   - item: CSS
-  - item: MATLAB
   - item: Python
+  - item: MATLAB
   - item: SQL
   - item: R
 
 frameworks:
   - item: Jekyll
-  - item: Node
+  - item: Node.js
 
 tools:
   - item: Bash
   - item: Git & Github
   - item: MongoDB
-
-skills:
-  - item: Leadership
-  - item: Qualitative & Quantitative Analysis
-  - item: Research
+  - item: MySQL
+  - item: SQL Server Management Studio
