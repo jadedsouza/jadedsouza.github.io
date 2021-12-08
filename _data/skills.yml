@@ -17,6 +17,8 @@ frameworks:
 tools:
   - item: Bash
   - item: Git & Github
+  - item: Azure
+  - item: AWS (S3, Redshift)
   - item: MongoDB
   - item: MySQL
   - item: SQL Server Management Studio
